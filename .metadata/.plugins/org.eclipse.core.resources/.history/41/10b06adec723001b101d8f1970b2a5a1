@@ -1,0 +1,11 @@
+package com.objectClassDemo;
+
+public class DemoGetClassMethod {
+
+	public static void main(String[] args) {
+		Object obj=new DemoGetClassMethod();
+		System.out.println(obj.getClass().getPackageName());
+		
+	}
+
+}

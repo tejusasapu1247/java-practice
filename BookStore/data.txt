@@ -1,0 +1,7 @@
+id:title:price:disocunt:author:category
+121:java basics:2020:0.1:guruvugaru:CSE
+122:python:123:0.3:moksha:loifeskill
+123:C basics:500:0.4:rahul:IT
+125:C++ basics:789:0.9:maggi:motivation
+135:C++ basics:600:0.3:raj:spirtual
+120:English:456:0.7:samanthaRoy:motivational

@@ -1,0 +1,9 @@
+package com.objectClassDemo;
+
+public class ToStringExample {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

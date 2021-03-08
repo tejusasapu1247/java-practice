@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;CounterProblem_using_JDBC&apos; to &apos;CounterDB&apos;" description="Rename resource &apos;CounterProblem_using_JDBC&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/CounterProblem_using_JDBC" name="CounterDB" stamp="1605583525341" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;JSp_demo&apos;" deleteContents="false" description="Delete resource &apos;JSp_demo&apos;" element1="/JSp_demo" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1605593685523"/>
+</session>

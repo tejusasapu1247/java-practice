@@ -1,0 +1,23 @@
+package com.objectClassDemo;
+
+class Complex { 
+    private double real, imaginary;          
+    public Complex(double re, double im) { 
+        this.real = re; 
+        this.imaginary = im; 
+    }
+    @Override
+    public String toString() {
+    	return String.format(real+"+ i"+imaginary);
+		
+    	
+    }
+} 
+public class ToStringExample {
+
+	public static void main(String[] args) {
+		 Complex c1 = new Complex(10, 15); 
+	        System.out.println(c1);
+	}
+
+}

@@ -1,0 +1,13 @@
+127.0.0.1 - - [15/Aug/2020:23:40:37 +0530] "GET / HTTP/1.1" 404 748
+127.0.0.1 - - [15/Aug/2020:23:41:01 +0530] "GET / HTTP/1.1" 404 748
+0:0:0:0:0:0:0:1 - - [15/Aug/2020:23:41:02 +0530] "GET /OnlineBankingTask/ HTTP/1.1" 404 766
+0:0:0:0:0:0:0:1 - - [15/Aug/2020:23:41:33 +0530] "GET /OnlineBankingTask/WEB-INF/userDetails.jsp HTTP/1.1" 404 683
+127.0.0.1 - - [15/Aug/2020:23:42:06 +0530] "GET / HTTP/1.1" 404 748
+0:0:0:0:0:0:0:1 - - [15/Aug/2020:23:42:07 +0530] "GET /OnlineBankingTask/WEB-INF/userDetails.jsp HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [15/Aug/2020:23:42:38 +0530] "GET /OnlineBankingTask/WEB-INF/userDetails.jsp HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [15/Aug/2020:23:43:38 +0530] "GET /OnlineBankingTask/WEB-INF/userDetails.jsp HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [15/Aug/2020:23:43:45 +0530] "GET /OnlineBankingTask/ HTTP/1.1" 404 766
+0:0:0:0:0:0:0:1 - - [15/Aug/2020:23:43:48 +0530] "GET /OnlineBankingTask/ HTTP/1.1" 404 766
+0:0:0:0:0:0:0:1 - - [15/Aug/2020:23:43:49 +0530] "GET /OnlineBankingTask/ HTTP/1.1" 404 766
+0:0:0:0:0:0:0:1 - - [15/Aug/2020:23:43:50 +0530] "GET /OnlineBankingTask/ HTTP/1.1" 404 766
+0:0:0:0:0:0:0:1 - - [15/Aug/2020:23:43:52 +0530] "GET /OnlineBankingTask/WEB-INF/userDetails.jsp HTTP/1.1" 404 683

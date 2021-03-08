@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+	<person id="1">
+		<FirstName>Teju</FirstName>
+		<LastName>Sasapu</LastName>
+	</person>
+	
+	<person id="2">
+		<FirstName>Moksha</FirstName>
+		<LastName>Rahul</LastName>
+	</person>
+</people>

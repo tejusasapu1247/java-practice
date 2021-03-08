@@ -1,0 +1,39 @@
+package com.objectClassDemo;
+
+class Student{
+	private String name;
+	private int id;
+	public Student(String name, int id) {
+		super();
+		this.name = name;
+		this.id = id;
+	}
+//	@Override
+//	public String toString() {
+//		return "Student [name=" + name + ", id=" + id + "]";
+//	}
+//	
+}
+class Addition { 
+    private int a,b;          
+    public Addition(int a,int b) { 
+        this.a = a; 
+        this.b = b; 
+    }
+   
+//    @Override
+//    public String toString() {
+//    	return String.format(real+"+ i"+imaginary);
+//		
+//    }	
+    }
+
+public class ToStringExample {
+
+	public static void main(String[] args) {
+		 Student s=new Student("Ram", 121);
+	        System.out.println(s);
+	        System.out.println(s.toString());
+	}
+
+}

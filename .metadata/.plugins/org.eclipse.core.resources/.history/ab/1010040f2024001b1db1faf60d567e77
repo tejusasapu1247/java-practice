@@ -1,0 +1,24 @@
+package com.objectClassDemo;
+
+class Addition { 
+    private int a,b;          
+    public Addition(int a,int b) { 
+        this.a = a; 
+        this.b = b; 
+    }
+   
+//    @Override
+//    public String toString() {
+//    	return String.format(real+"+ i"+imaginary);
+//		
+//    }	
+    }
+
+public class ToStringExample {
+
+	public static void main(String[] args) {
+		 Addition c1 = new Addition(10, 15); 
+	        System.out.println(c1);
+	}
+
+}

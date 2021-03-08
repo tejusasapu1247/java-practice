@@ -1,0 +1,10 @@
+package com.objectClassDemo;
+
+public class cloneExample {
+
+	public static void main(String[] args) {
+		Emp emp1 = new Emp(121, "RAJA", 3000);
+		Emp emp2=(Emp) emp1.clone();
+	}
+
+}

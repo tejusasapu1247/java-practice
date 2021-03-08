@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>hello</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+    <servlet-name>FirstServlet</servlet-name>
+    <servlet-class>com.hello.MyFirstServlet</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern>/teju</url-pattern>
+  </servlet-mapping>
+ 
+ 
+ 
+ 
+  <servlet>
+    <servlet-name>SecondServlet</servlet-name>
+    <servlet-class>com.hello.SecondServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SecondServlet</servlet-name>
+    <url-pattern>/moksha</url-pattern>
+  </servlet-mapping>
+ 
+ 
+ 
+ 
+  <servlet>
+    <servlet-name>ThirdServlet</servlet-name>
+    <servlet-class>com.hello.ThirdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ThirdServlet</servlet-name>
+    <url-pattern>/example</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>JdbcDemo</servlet-name>
+    <servlet-class>com.hello.JdbcDemo</servlet-class>
+    <init-param>
+    <param-name>driverName</param-name>
+    <param-value>com.mysql.jdbc.Driver</param-value>
+    </init-param>
+      <init-param>
+    <param-name>url</param-name>
+    <param-value>jdbc:mysql://localhost:3306/hcl_batch5</param-value>
+    </init-param>
+    
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JdbcDemo</servlet-name>
+    <url-pattern>/jdbcdemo</url-pattern>
+  </servlet-mapping>
+</web-app>

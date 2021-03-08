@@ -1,0 +1,16 @@
+package com.objectClassDemo;
+
+class Complex { 
+    private double real, imaginary;          
+    public Complex(double re, double im) { 
+        this.real = re; 
+        this.imaginary = im; 
+    } 
+} 
+public class ToStringExample {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

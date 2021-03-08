@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+T:\HCL\servlet_Jsp\SPring_MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\922955595.index
+\mvc1\src\main\java
+T:\HCL\servlet_Jsp\SPring_MVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2828006848.index
+\bookstores\src
